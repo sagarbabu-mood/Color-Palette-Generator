@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.palette-generator,
+.saved-palettes {
+  margin: 20px auto;
+  width: 80%;
+}
+
+.palette {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.color-block {
+  flex: 1;
+  padding: 20px;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.saved-palettes .saved-palette {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.saved-palettes .colors {
+  display: flex;
+  gap: 10px;
+}
